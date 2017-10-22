@@ -17,7 +17,7 @@ Keine Bange, um loszulegen brauchst Du überhaupt nichts über ASP.NET Core \(od
 
 Der fertige Quelltext der Tutorialanwendung ist auf GitHub verfügbar \([https://www.github.com/nbarbettini/little-aspnetcore-todo](https://www.github.com/nbarbettini/little-aspnetcore-todo)\). Lade ihn herunter, falls Du Deinen eigenen Code damit vergleichen möchtest.
 
-Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten.
+Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten. Falls du die e-Book oder gedruckte Version liest, schaue auf der offiziellen Webseite \([littleasp.net/book](http://www.littleasp.net/book)\) nach, ob eine neuere Version verfügbar ist! Schaue auf der ganz letzten Seite des Buches für Versioninformationen und Änderungen nach.
 
 The book itself is updated frequently with bug fixes and new content. If you're reading a PDF, e-book, or print version, check the official website \([littleasp.net/book](http://www.littleasp.net/book)\) to see if there's an updated version available. Check the very last page of the book for version information and a changelog.
 
