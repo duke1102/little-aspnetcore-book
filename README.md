@@ -1,3 +1,7 @@
+# Hinweis
+
+Dies ist die deutsche Übersetzung des Buches. Momentan befindet sich diese am Anfang und viele Dinge werden im Laufe der Zeit verändert oder umstrukturiert. Manche Textpassagen mögen derzeit noch etwas merkwürdig oder überkompliziert klingen, dies wird später noch optimiert!
+
 # Einführung
 
 Danke dass Du das kleine ASP.NET Core Buch heruntergeladen hast! Ich habe dieses Buch mit dem Ziel verfasst um Entwicklern und Interessenten der Webentwicklung einen Einblick in ASP.NET Core 2.0, ein neues Framework für Webanwendungen und APIs, zu geben.
