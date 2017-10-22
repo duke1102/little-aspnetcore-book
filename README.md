@@ -19,8 +19,6 @@ Der fertige Quelltext der Tutorialanwendung ist auf GitHub verfügbar \([https:/
 
 Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten. Falls du die e-Book oder gedruckte Version liest, schaue auf der offiziellen Webseite \([littleasp.net/book](http://www.littleasp.net/book)\) nach, ob eine neuere Version verfügbar ist! Schaue auf der ganz letzten Seite des Buches für Versioninformationen und Änderungen nach.
 
-The book itself is updated frequently with bug fixes and new content. If you're reading a PDF, e-book, or print version, check the official website \([littleasp.net/book](http://www.littleasp.net/book)\) to see if there's an updated version available. Check the very last page of the book for version information and a changelog.
-
 ## Who this book is for
 
 If you're new to programming, this book will introduce you to the patterns and concepts used to build modern web applications. You'll learn how to build a web app \(and how the big pieces fit together\) by building something from scratch! While this little book won't be able to cover absolutely everything you need to know about programming, it'll give you a starting point so you can learn more advanced topics.
