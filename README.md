@@ -6,16 +6,18 @@ Das kleine ASP.NET Core Buch ist wie ein Tutorial aufgebaut. Du wirst eine To-Do
 
 * Die Grundlagen des MVC \(Model-View-Controller\) Musters
 * Wie Frontend Code \(HTML, CSS, JavaScript\) mit Backend Code zusammenarbeitet
-* Was Dependency Injection ist und warum es nützlich ist
-* Wie man Daten einer Datenbank liest und schreibt 
+* Was "Dependency Injection" ist und warum es nützlich ist
+* Wie man eine Datenbank ansteuert
 * Wie man eine sichere Login- und Registrierungsfunktion implementiert 
 * Wie man die App ins Web veröffentlicht
 
-Keine Bange, um loszulegen brauchst Du überhaupt nichts über ASP.NET Core \(oder der oben genannten Themen\) zu wissen.
+Keine Bange, um loszulegen brauchst Du überhaupt nichts über ASP.NET Core \(oder den oben genannten Themen\) zu wissen.
 
 ## Bevor Du anfängst
 
-The code for the finished version of the application you'll build is available on GitHub \([https://www.github.com/nbarbettini/little-aspnetcore-todo](https://www.github.com/nbarbettini/little-aspnetcore-todo)\). Feel free to download it if you want to compare as you write your own code.
+Der fertige Quelltext der Tutorialanwendung ist auf GitHub verfügbar \([https://www.github.com/nbarbettini/little-aspnetcore-todo](https://www.github.com/nbarbettini/little-aspnetcore-todo)\). Lade ihn herunter, falls Du Deinen eigenen Code damit vergleichen möchtest.
+
+Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten.
 
 The book itself is updated frequently with bug fixes and new content. If you're reading a PDF, e-book, or print version, check the official website \([littleasp.net/book](http://www.littleasp.net/book)\) to see if there's an updated version available. Check the very last page of the book for version information and a changelog.
 
