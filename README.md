@@ -26,9 +26,10 @@ Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten. 
 ## Für wen dieses Buch gedacht ist
 
 Falls Du noch ein Anfänger im programmieren bist wird dieses Buch Dir Entwurfsmuster und Konzepte nahe bringen um moderne Webanwendungen zu entwickeln.  
+Du wirst lernen wie man eine Webanwendung erstellt \(und wie große Teile zusammenarbeiten\), indem Du etwas von Anfang an baust!  
+Während dieses kleine Buch nicht in der Lage ist sämtliche Themen zu erläutern, die in der Programmierung wichtig sind, gibt es durchaus einen Anfangspunkt um weitere fortgeschrittene Themen zu verstehen.
 
 
-If you're new to programming, this book will introduce you to the patterns and concepts used to build modern web applications. You'll learn how to build a web app \(and how the big pieces fit together\) by building something from scratch! While this little book won't be able to cover absolutely everything you need to know about programming, it'll give you a starting point so you can learn more advanced topics.
 
 If you already code in a backend language like Node, Python, Ruby, Go, or Java, you'll notice a lot of familiar ideas like MVC, view templates, and dependency injection. The code will be in C\#, but it won't look too different from what you already know.
 
