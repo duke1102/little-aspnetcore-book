@@ -42,7 +42,7 @@ ASP.NET Core ist ein Web Framework von Microsoft für die Erstellung von Webanwe
 ASP.NET Core läuft auf Microsoft's .NET Laufzeitumgebung, ähnlich der Java Virtual Machine \(JVM\) oder dem Ruby Interpreter.  
 Du kannst ASP.NET Core Anwendungen in einer Vielzahl von Programmiersprachen \(C\#, Visual Basic, F\#\) verfassen. C\# ist die bevorzugte Sprache und wird auch in diesem Buch benutzt. Du kannst ASP.NET Core Anwendungen auf Windows, Mac und Linux entwickeln, sowie ausführen.
 
-## Why do we need another web framework?
+## Warum benötigen wir ein weiteres Web Framework?
 
 There are a lot of great web frameworks to choose from already: Node/Express, Spring, Ruby on Rails, Django, Laravel, and many more. What advantages does ASP.NET Core have?
 
