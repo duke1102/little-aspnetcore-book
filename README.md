@@ -39,9 +39,8 @@ Egal wie Dein Wissenstand in der Webentwicklung ist, dieses Buch wird Dir alles 
 
 ASP.NET Core ist ein Web Framework von Microsoft für die Erstellung von Webanwendungen, APIs und Microservices. Es nutzt bekannte Entwurfsmuster, wie MVC \(Model-View-Controller\), dependency injection und eine Request Pipeline bestehend aus Middleware. Es ist Open Source, lizenziert unter der Apache 2.0 Lizenz, der Quellcode ist frei verfügbar und die Community wird dazu ermutigt Bugfixes und neue Funktionen beizutragen.
 
-
-
-ASP.NET Core runs on top of Microsoft's .NET runtime, similar to the Java Virtual Machine \(JVM\) or the Ruby interpreter. You can write ASP.NET Core applications in a number of languages \(C\#, Visual Basic, F\#\). C\# is the most popular choice, and it's what I'll use in this book. You can build and run ASP.NET Core applications on Windows, Mac, and Linux.
+ASP.NET Core läuft auf Microsoft's .NET Laufzeitumgebung, ähnlich der Java Virtual Machine \(JVM\) oder dem Ruby Interpreter.  
+Du kannst ASP.NET Core Anwendungen in einer Vielzahl von Programmiersprachen \(C\#, Visual Basic, F\#\) verfassen. C\# ist die bevorzugte Sprache und wird auch in diesem Buch benutzt. Du kannst ASP.NET Core Anwendungen auf Windows, Mac und Linux entwickeln, sowie ausführen.
 
 ## Why do we need another web framework?
 
