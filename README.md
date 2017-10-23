@@ -25,15 +25,15 @@ Das Buch selber wird regelmäßig aktualisiert mit Bugfixes und neuen Inhalten. 
 
 ## Für wen dieses Buch gedacht ist
 
-Falls Du noch ein Anfänger im programmieren bist wird dieses Buch Dir Entwurfsmuster und Konzepte nahe bringen um moderne Webanwendungen zu entwickeln. Du wirst lernen wie man eine Webanwendung erstellt \(und wie große Teile zusammenarbeiten\), indem Du etwas von Anfang an baust!  
-  
+Falls Du noch ein Anfänger im programmieren bist wird dieses Buch Dir Entwurfsmuster und Konzepte nahe bringen um moderne Webanwendungen zu entwickeln. Du wirst lernen wie man eine Webanwendung erstellt \(und wie große Teile zusammenarbeiten\), indem Du etwas von Anfang an baust!
+
 Während dieses kleine Buch nicht in der Lage ist sämtliche Themen zu erläutern, die in der Programmierung wichtig sind, gibt es durchaus einen Anfangspunkt um weitere fortgeschrittene Themen zu verstehen.
 
 Falls Du bereits in einer Backend Sprache wie Node, Python, Ruby, Go oder Java programmierst, werden Dir einige Konzepte, wie MVC, View Templates und Dependency Injection, bekannt vor kommen. Der Code wird in C\# verfasst, aber er wird nicht großartig abweichen von Dir bekannten Syntaxen.
 
 Falls Du ein ASP.NET MVC Entwickler bist, wirst Du dich wie Zuhause fühlen! ASP.NET Core bringt einige neue Tool und verwendet \(und vereinfacht\) bereits bekannte Dinge. Ich erkläre einige Veränderungen weiter unten.
 
-No matter what your previous experience with web programming, this book will teach you everything you need to create a simple and useful web application in ASP.NET Core. You'll learn how to build functionality using backend and frontend code, how to interact with a database, and how to test and deploy the app to the world.
+Egal wie Dein Wissenstand in der Webentwicklung ist, dieses Buch wird Dir alles beibringen um eine einfache und nützliche Webanwendung mit ASP.NET Core zu erstellen. Du wirst lernen, wie man Backend- und Frontendfunktionalität implementiert, mit einer Datenbank kommuniziert, \(Unit\) Tests schreibt und die Anwendung online stellt.
 
 ## What is ASP.NET Core?
 
