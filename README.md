@@ -35,9 +35,11 @@ Falls Du ein ASP.NET MVC Entwickler bist, wirst Du dich wie Zuhause fühlen! ASP
 
 Egal wie Dein Wissenstand in der Webentwicklung ist, dieses Buch wird Dir alles beibringen um eine einfache und nützliche Webanwendung mit ASP.NET Core zu erstellen. Du wirst lernen, wie man Backend- und Frontendfunktionalität implementiert, mit einer Datenbank kommuniziert, \(Unit\) Tests schreibt und die Anwendung online stellt.
 
-## What is ASP.NET Core?
+## Was ist ASP.NET Core?
 
-ASP.NET Core is a web framework created by Microsoft for building web applications, APIs, and microservices. It uses common patterns like MVC \(Model-View-Controller\), dependency injection, and a request pipeline comprised of middleware. It's open-source under the Apache 2.0 license, which means the source code is freely available, and the community is encouraged to contribute bug fixes and new features.
+ASP.NET Core ist ein Web Framework von Microsoft für die Erstellung von Webanwendungen, APIs und Microservices. Es nutzt bekannte Entwurfsmuster, wie MVC \(Model-View-Controller\), dependency injection und eine Request Pipeline bestehend aus Middleware. Es ist Open Source, lizenziert unter der Apache 2.0 Lizenz, der Quellcode ist frei verfügbar und die Community wird dazu ermutigt Bugfixes und neue Funktionen beizutragen.
+
+
 
 ASP.NET Core runs on top of Microsoft's .NET runtime, similar to the Java Virtual Machine \(JVM\) or the Ruby interpreter. You can write ASP.NET Core applications in a number of languages \(C\#, Visual Basic, F\#\). C\# is the most popular choice, and it's what I'll use in this book. You can build and run ASP.NET Core applications on Windows, Mac, and Linux.
 
