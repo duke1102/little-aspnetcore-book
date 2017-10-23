@@ -29,7 +29,7 @@ Falls Du noch ein Anfänger im programmieren bist wird dieses Buch Dir Entwurfsm
 Du wirst lernen wie man eine Webanwendung erstellt \(und wie große Teile zusammenarbeiten\), indem Du etwas von Anfang an baust!  
 Während dieses kleine Buch nicht in der Lage ist sämtliche Themen zu erläutern, die in der Programmierung wichtig sind, gibt es durchaus einen Anfangspunkt um weitere fortgeschrittene Themen zu verstehen.
 
-
+Falls Du bereits in einer Backend Sprache wie Node, Python, Ruby, Go oder Java programmierst, werden Dir einige Konzepte, wie MVC, View Templates und Dependency Injection, bekannt vor kommen.
 
 If you already code in a backend language like Node, Python, Ruby, Go, or Java, you'll notice a lot of familiar ideas like MVC, view templates, and dependency injection. The code will be in C\#, but it won't look too different from what you already know.
 
