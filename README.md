@@ -44,13 +44,15 @@ Du kannst ASP.NET Core Anwendungen in einer Vielzahl von Programmiersprachen \(C
 
 ## Warum benötigen wir ein weiteres Web Framework?
 
-There are a lot of great web frameworks to choose from already: Node/Express, Spring, Ruby on Rails, Django, Laravel, and many more. What advantages does ASP.NET Core have?
+Es existieren bereits eine breite Auswahl wunderbarer Webframeworks: Node/Express, Spring, Ruby on Rails, Django, Laravel und viele weitere. Welche Vorteile hat ASP.NET Core?
 
-* **Speed.** ASP.NET Core is fast. Because .NET code is compiled, it executes much faster than code in interpreted languages like JavaScript or Ruby. ASP.NET Core is also optimized for multithreading and asynchronous tasks. It's common to see a 5-10x speed improvement over code written in Node.js.
+* **Geschwindigkeit. **ASP.NET Core ist schnell. Da .NET code kompiliert ist, läuft es deutlich schneller als Code von interpretierten Sprachen wie JavaScript oder Ruby. Ebenfalls ist ASP.NET Core für Multithreading und asynchrone Tasks optimiert. Es ist üblich eine 5 bis 10-fache Geschwindigkeit gegenüber Node.js Code zu beobachten.
 
-* **Ecosystem.** ASP.NET Core may be new, but .NET has been around for a long time. There are thousands of packages available on NuGet \(the .NET package manager; think npm, Ruby gems, or Maven\). There are already packages available for JSON deserialization, database connectors, PDF generation, or almost anything else you can think of.
+* **Ökosystem.** ASP.NET Core mag neu sein, .NET ist allerdings schon länger verfügbar. Auf NuGet \(.NET Paket Manager; wie npm, Ruby gems oder Maven\) finden sich tausende von Pakete. Es gibt Lösungen für JSON Deserialization, Datenbankanbindung, PDF Erstellung und vieles, vieles mehr.
 
 * **Security.** The team at Microsoft takes security seriously, and ASP.NET Core is built to be secure from the ground up. It handles things like sanitizing input data and preventing cross-site request forgery \(XSRF\) automatically, so you don't have to. You also get the benefit of static typing with the .NET compiler, which is like having a very paranoid linter turned on at all times. This makes it harder to do something you didn't intend with a variable or chunk of data.
+
+* **Sicherheit.** Das Microsoft Team nimmt Sicherheit sehr ernst und ASP.NET Core wurde mit Bedacht für Sicherheit entwickelt. Dinge wie das reinigen von Eingabedaten und verhindern von Cross-Site Request Forgery \(XSRF\) werden automatisch erledigt. 
 
 ## .NET Core and .NET Standard
 
