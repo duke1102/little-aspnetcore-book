@@ -29,8 +29,8 @@
 * [Automatisierte Tests](chapters/automated-testing/README.md)
   * [Unit Tests](chapters/automated-testing/unit-testing.md)
   * [Integration Tests](chapters/automated-testing/integration-testing.md)
-* [Deploy the application](chapters/deploy-the-application/README.md)
-  * [Deploy to Azure](chapters/deploy-the-application/deploy-to-azure.md)
-  * [Deploy with Docker](chapters/deploy-the-application/deploy-with-docker.md)
-* [Conclusion](chapters/conclusion/README.md)
+* [Veröffentlichen der Anwendung](chapters/deploy-the-application/README.md)
+  * [Veröffentlichen auf Azure](chapters/deploy-the-application/deploy-to-azure.md)
+  * [Veröffentlichen mit Docker](chapters/deploy-the-application/deploy-with-docker.md)
+* [Fazit](chapters/conclusion/README.md)
 
