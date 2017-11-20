@@ -1,12 +1,10 @@
 # Deine erste Anwendung
 
-Ready to build your first web app with ASP.NET Core? You'll need to gather a few things first:
+Bereit Deine erste Webanwendung mit ASP.NET Core zu bauen? Zuerst benötigst Du ein paar Dinge vorweg:
 
-**Your favorite code editor.** You can use Atom, Sublime, Notepad, or whatever editor you prefer writing code in. If you don't have a favorite, give Visual Studio Code a try. It's a free, cross-platform code editor that has rich support for writing C\#, JavaScript, HTML, and more. Just search for "download visual studio code" and follow the instructions.
+**Deinen bevorzugten Code Editor.** Du kannst Atom, Sublime, Notepad oder jeden anderen Editor benutzen. Falls Du noch keinen Favoriten hast, versuche Visual Studio Code. Er ist kostenlos, Cross-Platform fähig und besitzt Support für C\#, JavaScript, HTML and viele andere Sprachen. Suche einfach nach "download visual studio code" und befolge die Anweisungen.
 
-If you're on Windows, you can also use Visual Studio to build ASP.NET Core applications. You'll need Visual Studio 2017 version 15.3 or later \(the free Community Edition is fine\). Visual Studio has great code completion and other features specific to C\#, although Visual Studio Code is close behind.
+Falls Du Windows nutzt kannst du auch Visual Studio verwenden um ASP.NET Core Anwendungen zu programmieren. Du benötigst Visual Studio 2017, Version 15.3 oder neuer \(Community Edition ist ausreichend\). Visual Studio besitzt großartige Funktionen zur Codevervollständigung und andere C\# spezifische Funktionen.
 
-**The .NET Core SDK.** Regardless of the editor or platform you're using, you'll need to install the .NET Core SDK, which includes the runtime, base libraries, and command line tools you need for building ASP.NET Core apps. The SDK can be installed on Windows, Mac, or Linux.
-
-Once you've decided on an editor, you'll need to get the SDK.
+**Das .NET Core SDK.** Egal welchen Editor oder Betriebssystem Du nutzt, zuerst muss das .NET Core SDK installiert werden, welches die Laufzeitumgebung, Grundbibliotheken und Kommandozeilentools zur Entwicklung von ASP.NET Core Anwendungen enthält. Das SDK kann auf Windows, Mac oder Linux installiert werden.
 
