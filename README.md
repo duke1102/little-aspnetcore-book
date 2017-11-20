@@ -64,19 +64,18 @@ Weiterhin wirst Du die Begriffe .NET Core und .NET Standard hören. Die Namensko
 
 **.NET Core** ist die .NET Laufzeitumgebung, welche auf Windows, Mac oder Linux genutzt werden kann. Es implementiert die APIs definiert im .NET Standard Interface mit dem dazugehörigen Platform-spezifischen Code. Du wirst dieses System auf Deinem Computer nutzen um ASP.NET Core Anwendungen zu programmieren und auszuführen.
 
+Und zur Vervollständigung: **.NET Framework** ist eine andere Implementierung des .NET Standard, ausschließlich für Windows. Dies war der Standard bis .NET Core erschien und .NET auf Mac und Linux möglich machte. ASP.NET Core kann außerdem auf dem Windows-spezifischen .NET Framework aufbauen, allerdings werde ich darauf nicht weiter eingehen.
 
+Falls Du durch die ganzen Namenskonventionen etwas verwirrt bist, keine Sorge! Wir gelangen zur richtigen Programmierung in einem Moment.
 
-And just for good measure, **.NET Framework** is a different implementation of .NET Standard that is Windows-only. This was the only .NET runtime until .NET Core came along and opened .NET up to Mac and Linux. ASP.NET Core can also run on Windows-only .NET Framework, but I won't touch on this too much.
+## Hinweis für ASP.NET 4 Programmierer
 
-If you're confused by all this naming, no worries! We'll get to some real code in a bit.
+Falls Du zuvor noch keine Erfahrungen mit ASP.NET gemacht hast kannst Du dieses Kapitel überspringen!
 
-## A note to ASP.NET 4 developers
+ASP.NET Core ist ein von Grund auf Neuentwicklung von ASP.NET mit dem Fokus auf Modernisierung des Frameworks und die Abtrennung von System.Web, IIS und Windows. Wenn Du Dich an OWIN/Katana Zeugs von ASP.NET 4 erinnern kannst: das Katana Projekt wurde zu ASP.NET 5, welches final zu ASP.NET Core umbenannt wurde.
 
-If you haven't used a previous version of ASP.NET, skip ahead to the next chapter!
+Aufgrund der Katana "Altlast", die`Startup` Klasse ist Vorderansicht und Mittelpunkt, weiter gibt es `Application_Start`oder`Global.asax`nicht mehr.   
+Die gesamte Pipeline wird von Middleware verwaltet und die Abtrennung von MVC und Web API existiert so nicht mehr: Controller können Views, Status Codes oder Daten returnen. Dependency Injection ist bereits inkludiert, dadurch sparst Du die Installation und Konfiguration von Container wie StructureMap oder Ninject. Das gesamte Framework ist außerdem für Geschwindigkeit und Laufzeiteffizienz optimiert.
 
-ASP.NET Core is a complete ground-up rewrite of ASP.NET, with a focus on modernizing the framework and finally decoupling it from System.Web, IIS, and Windows. If you remember all the OWIN/Katana stuff from ASP.NET 4, you're already halfway there: the Katana project became ASP.NET 5 which was ultimately renamed to ASP.NET Core.
-
-Because of the Katana legacy, the `Startup` class is front and center, and there's no more `Application_Start` or `Global.asax`. The entire pipeline is driven by middleware, and there's no longer a split between MVC and Web API: controllers can simply return views, status codes, or data. Dependency injection comes baked in, so you don't need to install and configure a container like StructureMap or Ninject if you don't want to. And the entire framework has been optimized for speed and runtime efficiency.
-
-Alright, enough introduction. Let's dive in to ASP.NET Core!
+Okay, genug der Einleitung! Lass uns mit ASP.NET Core beginnen!
 
