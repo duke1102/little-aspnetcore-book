@@ -52,17 +52,19 @@ Es existieren bereits eine breite Auswahl wunderbarer Webframeworks: Node/Expres
 
 * **Security.** The team at Microsoft takes security seriously, and ASP.NET Core is built to be secure from the ground up. It handles things like sanitizing input data and preventing cross-site request forgery \(XSRF\) automatically, so you don't have to. You also get the benefit of static typing with the .NET compiler, which is like having a very paranoid linter turned on at all times. This makes it harder to do something you didn't intend with a variable or chunk of data.
 
-* **Sicherheit.** Das Microsoft Team nimmt Sicherheit sehr ernst und ASP.NET Core wurde mit Bedacht für Sicherheit entwickelt. Dinge wie das reinigen von Eingabedaten und verhindern von Cross-Site Request Forgery \(XSRF\) werden automatisch erledigt. 
+* **Sicherheit.** Das Microsoft Team nimmt Sicherheit sehr ernst und ASP.NET Core wurde mit Bedacht für Sicherheit entwickelt. Dinge wie das reinigen von Eingabedaten und verhindern von Cross-Site Request Forgery \(XSRF\) werden automatisch erledigt.
 
-## .NET Core and .NET Standard
+## .NET Core und.NET Standard
 
-Throughout this book, you'll be learning about ASP.NET Core \(the web framework\). I'll occasionally mention the .NET runtime \(the supporting library that runs .NET code\).
+In diesem Buch wirst Du ASP.NET Core \(das Webframework\) kennenlernen. Ich werde ab und zu das .NET Runtime \(die darunterliegende Bibliothek, welche .NET Code ausführt\) erwähnen.
 
-You may also hear about .NET Core and .NET Standard. The naming gets confusing, so here's a simple explanation:
+Weiterhin wirst Du die Begriffe .NET Core und .NET Standard hören. Die Namenskonvention kann verwirrend sein, hier eine einfache Erklärung:
 
-**.NET Standard** is a platform-agnostic interface that defines what features and APIs are available in .NET. .NET Standard doesn't represent any actual code or functionality, just the API definition. There are different "versions" or levels of .NET Standard that reflect how many APIs are available \(or how wide the API surface area is\). For example, .NET Standard 2.0 has more APIs available than .NET Standard 1.5, which has more APIs than .NET Standard 1.0.
+**.NET Standard **ist ein platform-unabhängiges Interface welches die enthaltenen Funktionen und APIs in .NET definiert. .NET Standard enthält keinen wirklichen Code oder Funktionalität, nur die API Definitionen. Es existieren verschiedene "Versionen" oder Level des .NET Standards die reflektieren wieviele APIs verfügbar sind \(oder wie groß die API Funktionalität ist\). Als Beispiel verfügt .NET Standard 2.0 über mehr APIs als .NET Standard 1.5 und dieser wieder rum mehr als .NET Standard 1.0.
 
-**.NET Core** is the .NET runtime that can be installed on Windows, Mac, or Linux. It implements the APIs defined in the .NET Standard interface with the appropriate platform-specific code on each operating system. This is what you'll install on your own machine to build and run ASP.NET Core applications.
+**.NET Core** ist die .NET Laufzeitumgebung, welche auf Windows, Mac oder Linux genutzt werden kann. Es implementiert die APIs definiert im .NET Standard Interface mit dem dazugehörigen Platform-spezifischen Code. Du wirst dieses System auf Deinem Computer nutzen um ASP.NET Core Anwendungen zu programmieren und auszuführen.
+
+
 
 And just for good measure, **.NET Framework** is a different implementation of .NET Standard that is Windows-only. This was the only .NET runtime until .NET Core came along and opened .NET up to Mac and Linux. ASP.NET Core can also run on Windows-only .NET Framework, but I won't touch on this too much.
 
