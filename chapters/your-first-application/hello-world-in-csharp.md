@@ -1,4 +1,4 @@
-## Hallo Welt in C\#
+## Hallo Welt in C\\#
 
 Before you dive into ASP.NET Core, try creating and running a simple C\# application.
 
