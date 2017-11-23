@@ -1,4 +1,4 @@
-## Installieren des SDK
+## Installation des SDK
 
 Suche nach "download .net core" und befolge den Anweisungen auf der Downloadseite Deines Betriebssystems von Microsoft. Nach der Installation öffne ein Terminal \(PowerShell unter Windows\) und nutze das `dotnet` Kommandozeilentool \(CLI\) zum testen ob alles funktioniert:
 
