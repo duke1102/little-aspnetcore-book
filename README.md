@@ -50,8 +50,6 @@ Es existieren bereits eine breite Auswahl wunderbarer Webframeworks: Node/Expres
 
 * **Ökosystem.** ASP.NET Core mag neu sein, .NET ist allerdings schon länger verfügbar. Auf NuGet \(.NET Paket Manager; wie npm, Ruby gems oder Maven\) finden sich tausende von Pakete. Es gibt Lösungen für JSON Deserialization, Datenbankanbindung, PDF Erstellung und vieles, vieles mehr.
 
-* **Security.** The team at Microsoft takes security seriously, and ASP.NET Core is built to be secure from the ground up. It handles things like sanitizing input data and preventing cross-site request forgery \(XSRF\) automatically, so you don't have to. You also get the benefit of static typing with the .NET compiler, which is like having a very paranoid linter turned on at all times. This makes it harder to do something you didn't intend with a variable or chunk of data.
-
 * **Sicherheit.** Das Microsoft Team nimmt Sicherheit sehr ernst und ASP.NET Core wurde mit Bedacht für Sicherheit entwickelt. Dinge wie das reinigen von Eingabedaten und verhindern von Cross-Site Request Forgery \(XSRF\) werden automatisch erledigt.
 
 ## .NET Core und.NET Standard
@@ -74,7 +72,7 @@ Falls Du zuvor noch keine Erfahrungen mit ASP.NET gemacht hast kannst Du dieses 
 
 ASP.NET Core ist ein von Grund auf Neuentwicklung von ASP.NET mit dem Fokus auf Modernisierung des Frameworks und die Abtrennung von System.Web, IIS und Windows. Wenn Du Dich an OWIN/Katana Zeugs von ASP.NET 4 erinnern kannst: das Katana Projekt wurde zu ASP.NET 5, welches final zu ASP.NET Core umbenannt wurde.
 
-Aufgrund der Katana "Altlast", die`Startup` Klasse ist Vorderansicht und Mittelpunkt, weiter gibt es `Application_Start`oder`Global.asax`nicht mehr.   
+Aufgrund der Katana "Altlast", die`Startup` Klasse ist Vorderansicht und Mittelpunkt, weiter gibt es `Application_Start`oder`Global.asax`nicht mehr.  
 Die gesamte Pipeline wird von Middleware verwaltet und die Abtrennung von MVC und Web API existiert so nicht mehr: Controller können Views, Status Codes oder Daten returnen. Dependency Injection ist bereits inkludiert, dadurch sparst Du die Installation und Konfiguration von Container wie StructureMap oder Ninject. Das gesamte Framework ist außerdem für Geschwindigkeit und Laufzeiteffizienz optimiert.
 
 Okay, genug der Einleitung! Lass uns mit ASP.NET Core beginnen!

@@ -1,23 +1,21 @@
-## Hallo Welt in C\
+## Hallo Welt in C\#
 
+Bevor Du mit ASP.NET Core loslegst, starte mit einer einfachten C\# Anwendung.
 
-
-Before you dive into ASP.NET Core, try creating and running a simple C\# application.
-
-You can do this all from the command line. First, open up the Terminal \(or PowerShell on Windows\). Navigate to the location you want to store your projects, such as your Documents directory:
+All dies kannst Du über die Kommandozeile erledigen. Öffne ein Terminal \(oder PowerShell unter Windows\), navigiere zu einem Ordner wo Du Projekte lagern möchtest, beispielweise "Eigene Dokumente":
 
 ```
 cd Documents
 ```
 
-Use the `dotnet` command to create a new project:
+Nutze den`dotnet` Befehl um ein neues Projekt zu erzeugen:
 
 ```
 dotnet new console -o CsharpHelloWorld
 cd CsharpHelloWorld
 ```
 
-This creates a basic C\# program that writes some text to the screen. The program is comprised of two files: a project file \(with a `.csproj` extension\) and a C\# code file \(with a `.cs` extension\). If you open the former in a text or code editor, you'll see this:
+Dies erstellt ein simples C\# Programm welches Text auf der Kommandozeile ausgibt. Es besteht aus zwei Dateien: eine Projektdate \(mit der `.csproj` Endung\) und eine C\# Codedatei \(mit der `.cs`Endung\). Wenn Du ersteres in einem Editor öffnest siehst Du folgendes:
 
 `CsharpHelloWorld.csproj`
 
@@ -32,7 +30,7 @@ This creates a basic C\# program that writes some text to the screen. The progra
 </Project>
 ```
 
-The project file is XML-based and defines some metadata about the project. Later, when you reference other packages, those will be listed here \(similar to a `project.json` file for npm\). You won't have to edit this file by hand often.
+Die Projektdatei ist XML-basiert und definiert eine Metadaten des Projektes. Später, wenn Du andere Paketverweise hinzufügst werden diese dort zu finden sein \(ähnlich der `project.json` Datei bei npm\). Du wirst diese Datei selten per Hand editieren.
 
 `Program.cs`
 
@@ -51,7 +49,9 @@ namespace CsharpHelloWorld
 }
 ```
 
-`static void Main` is the entry point method of a C\# program, and by convention it's placed in a class \(a type of code structure or module\) called `Program`. The `using` statement at the top imports the built-in System classes from .NET and makes them available to the code in the class.
+`static void Main`ist die Einstiegspunktmethode einer C\# Anwendung und in einer Klasse enthalten \(ein Typ von Codestruktur oder Modul\) namens `Program`. Die `using`Anweisung am Anfang der Datei importiert die eingebetteten Systemklassen von .NET und stellt diese zur Verfügung.
+
+
 
 From inside the project directory, use `dotnet run` to run the program. You'll see the output written to the console after the code compiles:
 
